@@ -1,0 +1,35 @@
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+footer{
+    margin: 40px 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+.centrar{
+    width: 80vw;
+}
+
+.tamañoTabla{
+    max-width: 800px;
+}

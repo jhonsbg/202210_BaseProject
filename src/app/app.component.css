@@ -1,3 +1,9 @@
 * [lang^=en] {
   color: green;
 }
+
+.responsive{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
