@@ -1,60 +1,13 @@
 <testExecutions version="1">
-  <file path="src/app/vehiculos/vehiculo.service.spec.ts">
-    <testCase name="Service: Vehiculo should ..." duration="13">
-      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[VehiculoService -&gt; HttpClient -&gt; HttpClient]: 
-  NullInjectorError: No provider for HttpClient!
-error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'VehiculoService', 'HttpClient', 'HttpClient' ] })
-NullInjectorError: R3InjectorError(DynamicTestModule)[VehiculoService -&gt; HttpClient -&gt; HttpClient]: 
-  NullInjectorError: No provider for HttpClient!
-    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at injectInjectorOnly (node_modules/@angular/core/fesm2015/core.mjs:4765:1)
-    at ɵɵinject (node_modules/@angular/core/fesm2015/core.mjs:4769:1)
-    at Object.VehiculoService_Factory [as factory] (ng:///VehiculoService/ɵfac.js:4:43)
-    at R3Injector.hydrate (node_modules/@angular/core/fesm2015/core.mjs:11457:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11276:1)
-    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
-    at TestBedRender3.inject (node_modules/@angular/core/fesm2015/testing.mjs:1719:1)
-</failure>
-    </testCase>
-  </file>
   <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should render title" duration="48">
-      <failure message="Error">Error: Expected undefined to contain 'base-project app is running!'.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (src/app/app.component.spec.ts:29:66)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:1)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:1)
-</failure>
-    </testCase>
-    <testCase name="AppComponent should create the app" duration="4"/>
-    <testCase name="AppComponent should have as title 'base-project'" duration="3"/>
+    <testCase name="AppComponent should have as title 'base-project'" duration="44"/>
+    <testCase name="AppComponent should create the app" duration="5"/>
   </file>
   <file path="src/app/vehiculos/vehiculo-lista/vehiculo-lista.component.spec.ts">
-    <testCase name="VehiculoListaComponent should create" duration="14">
-      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[VehiculoService -&gt; HttpClient -&gt; HttpClient]: 
-  NullInjectorError: No provider for HttpClient!
-error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'VehiculoService', 'HttpClient', 'HttpClient' ] })
-NullInjectorError: R3InjectorError(DynamicTestModule)[VehiculoService -&gt; HttpClient -&gt; HttpClient]: 
-  NullInjectorError: No provider for HttpClient!
-    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at injectInjectorOnly (node_modules/@angular/core/fesm2015/core.mjs:4765:1)
-    at ɵɵinject (node_modules/@angular/core/fesm2015/core.mjs:4769:1)
-    at Object.VehiculoService_Factory [as factory] (ng:///VehiculoService/ɵfac.js:4:43)
-    at R3Injector.hydrate (node_modules/@angular/core/fesm2015/core.mjs:11457:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11276:1)
-    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
-    at Object.get (node_modules/@angular/core/fesm2015/core.mjs:21509:1)
-
-Error: Expected undefined to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (src/app/vehiculos/vehiculo-lista/vehiculo-lista.component.spec.ts:26:23)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:1)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:1)
-</failure>
-    </testCase>
+    <testCase name="VehiculoListaComponent should create" duration="11"/>
+    <testCase name="VehiculoListaComponent should have four rows" duration="6"/>
+  </file>
+  <file path="src/app/vehiculos/vehiculo.service.spec.ts">
+    <testCase name="Service: Vehiculo should ..." duration="5"/>
   </file>
 </testExecutions>
